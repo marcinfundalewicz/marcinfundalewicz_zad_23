@@ -37,7 +37,7 @@ WHERE position = 'CEO';
 
 SELECT *
 FROM employee
-WHERE DATEDIFF(NOW(), data_urodzenia) >= 365 * 30 + 7;
+WHERE DATEDIFF(NOW(), birthDate) >= 365 * 30 + 7;
 
 -- 6. Zwiększa wypłatę pracowników na wybranym stanowisku o 10%
 
